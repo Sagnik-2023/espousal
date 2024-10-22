@@ -1,0 +1,426 @@
+@import '../../../../styles.scss';
+.left-container{
+    height: 20vh;
+    border-right: 0.075rem solid $border-color;
+}
+.middle-container{
+    height: 20vh;
+    border-right: 0.075rem solid $border-color;
+}
+.right-container{
+    height: 20vh;
+    border-right: 0.075 rem solid $border-color;
+
+}
+.heading-container{
+    margin-top: 2vh;
+}
+.heading{
+    font-size: 2.5vw;
+    font-weight: 700;
+}
+.sub-heading{
+    padding-top: 2vh;
+    color: $secondary-color-5;
+}
+// .image-container{
+//     height: 60vh;
+//     width: 100%;
+//     // overflow: hidden;
+// }
+// #image{
+//     flex: 0 0 auto;
+//     position: relative;
+//     box-sizing: border-box;
+//     width: 98vw;
+//     height: 60vh;
+//     // min-height: 100%;
+//     // z-index: 2;
+//     display: flex;
+//     justify-content: center;
+//     // flex-flow: column;
+// }
+
+.image-container {
+    height: 75vh;          /* Container height set to 60% of viewport height */
+    width: 100%;          /* Full width of the container */
+    display: flex;         /* Use flex to center the image */
+    justify-content: center;  /* Center horizontally */
+    align-items: center;   /* Center vertically */
+    overflow: hidden;      /* Prevent overflow if image exceeds the container */
+}
+
+#image {
+    min-width: 100%;          /* Fill the container width */
+    height: 100%;          /* Fill the container height */
+    object-fit: fill;   /* Fit the entire image inside without cropping */
+    box-sizing: border-box; /* Ensures padding and border are included in width and height */
+}
+
+.second-left-container{
+    //height: 40vh;
+    border-right: 0.075rem solid $border-color;
+    margin-top: 3vh;
+
+}
+
+
+.second-middle-container{
+//height: 40vh;
+border-right: 0.075rem solid $border-color;
+margin-top: 3vh;
+}
+.second-right-container{
+//height: 40vh;
+border-right: 0.075 rem solid $border-color;
+margin-top: 3vh;
+
+}
+.project-container{
+    height: 35vh;
+    border-right: 0.075rem solid $border-color;
+    margin-top: 3vh;
+
+}
+.project-solution-container{
+    height: 35vh;
+    border-right: 0.075rem solid $border-color;
+    margin-top: 3vh;
+
+}
+.project-desc{
+    margin-top: 3vh;
+    font-size: 1.1vw;
+    color: $secondary-color-5;
+}
+
+.project-heading{
+    font-size: 2vw;
+    font-weight: 700;
+}
+
+.project-desc-1{
+    margin-top: 3vh;
+    font-size: 1.1vw;
+    color: $secondary-color-5;
+}
+
+.project-desc-2{
+margin-top: 3vh;
+font-size: 1.1vw;
+color: $secondary-color-5;
+}
+
+.project-heading-1{
+    font-size: 1.3vw;
+    font-weight: 700;
+}
+
+.project-heading-2{
+    font-size: 1.3vw;
+    font-weight: 700;
+    padding-top: 1vh;
+}
+#texas-1{
+    height: 70vh;
+    width: 25vw;
+    margin-left: 0vw;
+    margin-top: 10vh;
+    border-radius: 0.5vw;
+}
+#texas-2{
+    height: 35vh;
+    width: 25vw;
+    margin-left: 13.5vw;
+    padding-left: 2vw;
+    border-radius: 0.5vw;
+    
+}
+#texas-3{
+    height: 35vh;
+    width: 25vw;
+    margin-top: 6vh;
+    margin-left: 3vw;
+    border-radius: 0.5vw;
+}
+
+#texas-4{
+    height: 70vh;
+    width: 27vw;
+    margin-left: 7vw;
+    border-radius: 0.5vw;
+}
+#texas-5{
+    height: 70vh;
+    width: 27vw;
+    margin-left: 7vw;
+    /* padding-bottom: 13vh; */
+    margin-top: -163vh;
+    margin-left: 20vw;
+    border-radius: 0.5vw;
+
+ 
+} 
+.result-heading{
+    font-size: 2vw;
+    font-weight: 700;
+}
+
+.result-desc{
+    font-size: 1vw;
+    color: $secondary-color-5;
+}
+
+.result-heading-container{
+    margin-top: 9vh;
+}
+.result-desc-container{
+    margin-top: 9vh;
+}
+.request{
+    font-size: 2vw;
+    font-weight: 700;
+    margin-top: 2vh;
+}
+.request-1{
+    color: $secondary-color-5;
+    font-size: 1vw;
+
+}
+.client{
+    font-size: 2vw;
+    font-weight: 700;
+    margin-top: 2vh;
+}
+.client-1{
+    color: $secondary-color-5;
+    font-size: 1vw;
+
+}
+
+.sale{
+    font-size: 2vw;
+    font-weight: 700;
+    margin-top: 2vh;
+}
+.sale-1{
+    color: $secondary-color-5;
+    font-size: 1vw;
+
+}
+
+.third-left-container{
+    height: 40vh;
+    border-right: 0.075rem solid $border-color;
+    margin-top: 15vh;
+    background-color: #f3f6ff;
+
+}
+.third-middle-container{
+height: 40vh;
+border-right: 0.075rem solid $border-color;
+margin-top: 15vh;
+background-color: #f3f6ff;
+}
+.third-right-container{
+height: 40vh;
+border-right: 0.075 rem solid $border-color;
+margin-top: 15vh;
+background-color: #f3f6ff;
+}
+.thought-right-container{
+    height: 30vh;
+    border: 0.075rem solid $border-color;
+    border-radius: 0.5vw;
+    background-color: $primary-color-6;
+    margin-top: 6vh;
+}
+.thought-left-container{
+    height: 30vh;
+}
+#quote{
+
+    font-size: 4vw;
+    color: $secondary-color-4 ;
+
+}
+
+.thought{
+    font-size: 1vw;
+    color: grey;
+}
+
+.name{
+    font-size: 1.2vw;
+    font-weight: 700;
+    margin-top: 2vh;
+}
+.designation{
+    font-size: 0.8vw;
+    color: grey;
+}
+
+.name-container{
+    height: 10vh;
+    border-right: 0.075rem solid grey;
+}
+#logo{
+    margin-top: 3vh;
+}
+
+.forth-left-container{
+    // height: 40vh;
+    border-right: 0.075rem solid $border-color;
+    margin-top: 15vh;
+    // background-color: #f3f6ff;
+
+}
+.forth-middle-container{
+// height: 40vh;
+border-right: 0.075rem solid $border-color;
+margin-top: 10vh;
+// background-color: #f3f6ff;
+}
+.forth-right-container{
+// height: 40vh;
+border-right: 0.075 rem solid $border-color;
+margin-top: 15vh;
+// background-color: #f3f6ff;
+}
+
+.explore-heading{
+    font-size: 2vw;
+    font-weight: 700;
+    margin-left: 21vw;
+}
+
+.forth-inside-left-container{
+    margin-top: 5vh;
+    // height: 50vh;
+    // font-size: 1vw;
+    // font-weight: 700;
+
+    // &hover{
+    //     color: $secondary-color-4;
+    //     font-size: 1.2vw;
+    // }
+}
+
+.forth-inside-right-container{
+    margin-top: 5vh;
+    // height: 50vh;
+
+}
+.forth-inside-middle-container{
+    margin-top: 5vh;
+    // height: 50vh;
+}
+
+#mobile-new{
+
+    font-size: 1.5vw;
+    font-weight: 700;
+    cursor: pointer;
+    height: 40vh;
+    width: 20vw;
+
+    &:hover{  & + .hide {
+
+    }
+        color: $secondary-color-4;
+        font-size: 1.6vw;
+        height: 42vh;
+        width: 21vw;
+    }
+
+}
+
+.hide {
+  display: none;
+}
+.card-text{
+    
+    &:hover{
+
+        & + .hide{
+            display: block;
+            color: $secondary-color-5;
+            font-size: 0.8vw;
+        }
+    }
+}
+
+.card{
+    font-size: 1vw;
+    font-weight: 700;
+    cursor: pointer;
+    height: 52vh;
+    width: 20vw;
+
+    &:hover{
+        color: $secondary-color-4;
+        font-size: 1.1vw;
+        height: 54vh;
+        width: 21vw;
+        
+    }
+
+
+    
+}
+
+// .card-text{
+//     font-size: 1.5vw;
+//     font-weight: 700;
+//     cursor: pointer;
+//     &:hover{
+//         color: $secondary-color-4;
+//         font-size: 1.8vw;
+//     }
+// }
+
+.contact-espousal{
+    margin-left: 22vw;
+    margin-top: 5vh;
+    color: $primary-color-6;
+    font-weight: lighter;
+}
+.contact-email{
+    margin-left: 12vw;
+    color: $primary-color-6;
+    font-size: 4vw;
+}
+
+.fifth-middle-container{
+    background-color: #c754f2;
+    border-radius: 1vw;
+}
+
+
+
+.file-action-btn {
+    min-width: 7vw;
+    height: 5vh;
+    // float: right;
+    // margin-left: 0.5rem;
+    font-weight: bold;
+    font-size: 0.8vw;
+    border-radius: 0.5rem !important;
+    // padding-top: unset;
+    // padding-bottom: unset;
+    margin-left: 1vw;
+    &:hover{
+        font-size: 0.9vw;
+        background-color: $secondary-color-4;
+        color: $primary-color-6;
+    }
+}
+
+.submit-btn-color {
+    // margin-top: 20vh;
+    background-color: $primary-color-6;
+    color: $secondary-color-4;
+    border: 0.075rem solid $secondary-color-4;
+    margin-left: 28vw;
+    margin-top: 7vh;
+}

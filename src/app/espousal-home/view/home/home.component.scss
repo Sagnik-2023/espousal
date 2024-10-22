@@ -1,0 +1,75 @@
+@import "../../../../styles.scss";
+.top-container {
+    height: 10vh;
+    background-color: $primary-color-6;
+    border-bottom: 0.075rem solid $border-color;
+    padding-left: 14vw;
+    //padding-left: 15vw;
+}
+.top-inside-container {
+    height: 8vh;
+    background-color: $primary-color-6;
+}
+.top-inside-container-p{
+    height: 8vh;
+    background-color: $primary-color-6;
+    padding-right: 13vw;
+}
+.top-inside-container-b{
+    height: 8vh;
+    background-color: $primary-color-6;
+    padding-right: 15vw;
+    margin-left: -7vw;
+    //padding-right: 13vw;
+}
+.top-inside-container-c{
+    height: 8vh;
+    background-color: $primary-color-6;
+    padding-right: 8vw;
+    margin-left: -11vw;
+    //padding-right: 13vw;
+}
+.logo{
+    height: 7vh;
+    width: 4vw;
+}
+.module-name{
+    color: $primary-color-5;
+    font-size: 1vw;
+    cursor: pointer;
+   //padding-left: 14vw;
+    //padding-right: 20vw;
+    &:hover{
+        font-size: 1.1vw;
+        color: $primary-color-2;
+    }
+
+}
+
+.route-container {
+    height: 89vh;
+    border-bottom: 0.075rem solid $border-color;
+    overflow:auto;
+}
+// .route-container{
+//     height: 84vh;
+//     border-bottom: 0.075rem solid $border-color;
+// }
+.bottom-container{
+    height: 1vh;
+    overflow: auto;
+    // border-top: 0.075rem solid $border-color;
+}
+// .footer-logo{
+//     height: 7vh;
+//     width: 5vw;
+// }
+// .footer-left-container{
+//     height: 30vh;
+// }
+// .footer-middle-container{
+//     height: 30vh;
+// }
+// .footer-right-container{
+//     height: 30vh;
+

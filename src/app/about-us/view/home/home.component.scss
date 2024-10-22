@@ -1,0 +1,431 @@
+@import "../../../../styles.scss";
+
+.left-container{
+    height: 30vh;
+    border-right: 0.075rem solid $border-color;
+    
+}
+.middle-container{
+    height:30vh;
+    border-right: 0.075rem solid $border-color;
+    // overflow: auto;
+}
+.middle-inside-left-container{
+   border-right: 0.075rem solid $border-color;
+   height: 20vh;
+   padding-top: 6vh;
+   padding-left: 3vw;
+}
+.middle-inside-right-container{
+    padding-top: 6vh;
+}
+.heading{
+    font-size: 4vw;
+}
+.heading-desc{
+    font-size: 1.3vw;
+    color: $secondary-color-5;
+}
+.form-label{
+    color: $primary-color-2;
+}
+.pic{
+    flex: 0 0 auto;
+    position: relative;
+    box-sizing: border-box;
+    width: 97vw;
+    height: 50vh;
+    // min-height: 100%;
+    // z-index: 2;
+    display: flex;
+    justify-content: center;
+    // flex-flow: column;
+}
+// .remove-all-margin-padding{
+//     margin:0 !important;
+//     padding:0 !important;
+// }
+.second-middle-container{
+    height:50vh;
+    border-right: 0.075rem solid $border-color;
+    border-left: 0.075rem solid $border-color;
+    border-top: 0.075rem solid $border-color;
+    border-bottom: 0.075rem solid $border-color;
+    border-top-left-radius: 0.9rem !important;
+    border-bottom-left-radius: 0.9rem !important;
+    border-top-right-radius: 0.9rem !important;
+    border-bottom-right-radius: 0.9rem !important;
+    margin-top: 2vh;
+}
+.second-heading{
+    font-size:2.5vw;
+    padding-left: 21vw;
+    font-weight: 700;
+    padding-top: 2vh;
+
+}
+.second-heading-desc{
+    text-align: center;
+    font-size: 1.4vw;
+    color: $secondary-color-5;
+    padding-top: 3vh;
+
+}
+.file-action-btn {
+    min-width: 9vw;
+    height: 6vh;
+    // float: right;
+    margin-left: 0.5rem;
+    font-weight: bold;
+    font-size: 1vw;
+    border-radius: 1rem !important;
+    // padding-top: unset;
+    // padding-bottom: unset;
+}
+
+.submit-btn-color {
+    // margin-top: 20vh;
+    background-color: $secondary-color-4;
+    color: $primary-color-6;
+    margin-left: 25vw;
+    margin-top: 7vh;
+}
+.right-container{
+    height: 30vh;
+}
+.third-middle-container{
+    // height:100vh;
+    border-right: 0.075rem solid $border-color;
+}
+.middle-third-inside-left-container{
+    height: 20vh;
+    border-right: 0.075rem solid $border-color;
+    
+}
+.inner-img{
+    font-size: 1vw;
+    padding-top: 3vh;padding-left: 1vw;
+}
+.cool-img{
+  width: 2vw;
+    padding-left: 0vw;
+    padding-top: 2vh;
+}
+.heading-2{
+    font-size: 4vw;
+    padding-left: 1vw;
+
+}
+.heading-3{
+    font-size: 1.2vw;
+    color: $secondary-color-5;
+    padding-left: 1vw;
+    
+}
+.grid-heading{
+
+        margin-left: -20vw;
+        font-weight: 600;
+    
+}
+.middle-third-inside-middle-container{
+    height: 20vh;
+    border-right: 0.075rem solid $border-color;
+}
+.middle-third-inside-right-container{
+    height: 20vh;
+}
+
+.contact-us-container{
+    border-right: 0.075rem solid $border-color;
+    border-left: 0.075rem solid $border-color;
+    border-top: 0.075rem solid $border-color;
+    border-bottom: 0.075rem solid $border-color;
+    border-top-left-radius: 0.9rem !important;
+    border-bottom-left-radius: 0.9rem !important;
+    border-top-right-radius: 0.9rem !important;
+    border-bottom-right-radius: 0.9rem !important;
+    margin-top: 2vh;
+    &:hover{
+        font-size: 1.1vw;
+        background-color: $primary-color-2;
+        color: $primary-color-6;
+    }
+
+}
+.contact{
+    padding-left: 24vw;
+    font-size: 1vw;
+    padding-top: 1vh;
+}
+
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+
+  .fourth-middle-container{
+
+    border-right: 0.075rem solid $border-color;
+    border-left: 0.075rem solid $border-color;
+    border-top: 0.075rem solid $border-color;
+    border-bottom: 0.075rem solid $border-color;
+
+  }
+
+
+
+  // .slider {
+  //   position: relative;
+  //   width: 63vw; /* Adjust this for the overall slider width */
+  //   height: 54vh; /* Adjust this for the overall slider height */
+  //   overflow: hidden;
+  // }
+  
+  // .slide {
+  //   display: flex;
+  //   position: absolute;
+  //   width: 95%;
+  //   height: 50%;
+  //   opacity: 0;
+  //   transition: opacity 0.5s ease-in-out;
+  //   margin-top: 3vh;
+  // }
+  
+  // .slide.active {
+  //   opacity: 1;
+  // }
+  
+  // .image-container-client{
+  //   width: 40%; /* Increase width for the image container */
+  //   height: 50%; /* Match height of the slider */
+  //   margin-top: 0vh;
+  //   border-right: 0.075rem solid $border-color;
+  //   border-left: 0.075rem solid $border-color;
+  //   border-top: 0.075rem solid $border-color;
+  //   border-bottom: 0.075rem solid $border-color;
+  // }
+  
+  // .text-container-client {
+  //   width: 60%; /* Increase width for the text container */
+  //   height: 100%; /* Match height of the slider */
+  //   display: flex;
+  //   align-items: center; /* Center text vertically */
+  //   justify-content: center; /* Center text horizontally */
+  //   padding: 20px; /* Add padding for better spacing */
+  //   margin-top: 0vh;
+  //   border-right: 0.075rem solid $border-color;
+  //   border-left: 0.075rem solid $border-color;
+  //   border-top: 0.075rem solid $border-color;
+  //   border-bottom: 0.075rem solid $border-color;
+  //   margin-left: 2vw;
+  // }
+  
+  // img {
+  //   width: 100%; /* Make the image responsive */
+  //   height: auto; /* Keep the aspect ratio */
+  // }
+  
+  // button {
+  //   margin: 10px;
+  // }
+  
+
+
+  .slider-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-right: 0.075rem solid $border-color;
+    border-left: 0.075rem solid $border-color;
+    border-top: 0.075rem solid $border-color;
+    border-bottom: 0.075rem solid $border-color;
+    background-color: #f3f6ff;
+    border-radius: 1vw;
+    margin-top: 2vh;
+  }
+  
+  .slider-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 700px;
+  }
+  
+  .slider-image {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .slider-text {
+    max-width: 400px;
+  }
+  
+  .slider-text h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .slider-text p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .prev-button, .next-button {
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .prev-button {
+    left: -40px;
+  }
+  
+  .next-button {
+    right: -40px;
+  }
+  
+  button:hover {
+    color: #000;
+  }
+
+  .slider-heading-container{
+    padding-top: 5vh;
+    padding-left: 25vw;
+  }
+
+  // .button-client{
+  //   margin-top: -20vh;
+  // }
+
+
+  div.gallery {
+    margin: 0.7vw;
+    border: 1px solid #ccc;
+    float: left;
+    width: 14vw;
+    height: 30vh;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: 20vh;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  .name{
+    font-size: 1vw;
+    font-weight: 700;
+  }
+  .designation{
+    font-size: 0.8vw;
+    color: $secondary-color-5;
+  }
+  .leadership-heading{
+    font-weight: 700;
+  }
+  // div.gallery-Dip{
+  //   margin: 5px;
+  //   border: 1px solid #ccc;
+  //   float: left;
+  //   width: 14vw;
+  //   height: 30vh;
+  //   // padding-left: 5vw;
+  // }
+  
+.buisness-container{
+    border-right: 0.075rem solid $border-color;
+    border-left: 0.075rem solid $border-color;
+    border-top: 0.075rem solid $border-color;
+    border-bottom: 0.075rem solid $border-color;
+    height: 45vh;
+    margin-top: 10vh;
+    border-radius: 1vw;
+    background-color: #f3f6ff;
+}
+.buisness-left-container{
+  // background-color: aqua;
+  height: 40vh;
+  margin-top: 5vh;
+}
+.image-1{
+  height: 40vh;
+  width: 29vw;
+  margin-top: 2vh;
+}
+
+#buisness-button{
+
+  margin-left: 0vw;
+
+}
+.buisness-caption-1{
+  font-size: 1.5vw;
+  color: $secondary-color-5;
+}
+.buisness-caption-2{
+  font-size: 2vw;
+  font-weight: 700;
+}
+
+.buisness-caption-3{
+  font-size: 2vw;
+  font-weight: 700;
+}
+
+  
+
+
+
+
